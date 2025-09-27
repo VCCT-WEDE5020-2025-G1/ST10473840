@@ -1,0 +1,94 @@
+<!-- ============================= -->
+<!-- M&I HOTEL - PAYMENT PAGE      -->
+<!-- Author: Indiphile Mngxuma     -->
+<!-- Date: Sept 2025               -->
+<!-- Description: Payment form for -->
+<!-- booking rooms at M&I Hotel.   -->
+<!-- ============================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M&I Hotel - Payment</title>
+  <link rel="stylesheet" href="style-payment.css">
+</head>
+<body>
+
+  <!-- ============================= -->
+  <!-- Navbar Section                -->
+  <!-- ============================= -->
+  <header class="navbar">
+    <div class="logo"><h1>M&I HOTEL</h1></div>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="rooms.html">ROOMS</a></li>
+        <li><a href="amenities.html">AMENITIES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="payment.html">PAYMENT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============================= -->
+  <!-- Payment Section               -->
+  <!-- ============================= -->
+  <main class="payment">
+    <h2>Secure Payment</h2>
+    <p>Complete your booking by making a secure online payment below.</p>
+
+    <div class="payment-container">
+      <!-- Payment Form -->
+      <form class="payment-form">
+        <!-- Personal Info -->
+        <h3>Guest Information</h3>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <!-- Payment Info -->
+        <h3>Payment Information</h3>
+        <label for="card-number">Card Number</label>
+        <input type="text" id="card-number" maxlength="16" placeholder="1234 5678 9012 3456" required>
+
+        <div class="payment-row">
+          <div>
+            <label for="expiry">Expiry Date</label>
+            <input type="text" id="expiry" placeholder="MM/YY" required>
+          </div>
+          <div>
+            <label for="cvv">CVV</label>
+            <input type="password" id="cvv" maxlength="3" placeholder="123" required>
+          </div>
+        </div>
+
+        <!-- Booking Info -->
+        <h3>Booking Details</h3>
+        <label for="checkin">Check-in Date</label>
+        <input type="date" id="checkin" required>
+
+        <label for="checkout">Check-out Date</label>
+        <input type="date" id="checkout" required>
+
+        <label for="guests">Number of Guests</label>
+        <input type="number" id="guests" min="1" max="10" value="1">
+
+        <button type="submit">Pay Now</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- ============================= -->
+  <!-- Footer Section                -->
+  <!-- ============================= -->
+  <footer>
+    <p>&copy; 2025 Indiphile Mngxuma / All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
