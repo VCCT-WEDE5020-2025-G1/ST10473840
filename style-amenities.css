@@ -1,21 +1,16 @@
-/* ================================= */
-/* M&I HOTEL - AMENITIES PAGE STYLES */
-/* Author: Indiphile Mngxuma         */
-/* Date: Sept 2025                   */
-/* Description: Styles for the       */
-/* amenities page of the hotel site. */
-/* ================================= */
+/* M&I HOTEL - AMENITIES PAGE STYLES*/
+/* Author: Indiphile Mngxuma*/
+/* Date: Sept 2025*/
+/* Description: Styles for the amenities page of the hotel site.*/
 
-/* Reset + general body styles */
+/* Reset and general body styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f8fafc;
 }
 
-/* ============================= */
-/* Navbar Styles                 */
-/* ============================= */
+/* Navbar Styles*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -46,9 +41,7 @@ body {
   color: gold;
 }
 
-/* ============================= */
-/* Amenities Section Styles      */
-/* ============================= */
+/* Amenities Section Styles*/
 .amenities {
   padding: 50px 20px;
   text-align: center;
@@ -91,9 +84,7 @@ body {
   font-size: 16px;
 }
 
-/* ============================= */
-/* Footer Styles                 */
-/* ============================= */
+/* Footer Styles*/
 footer {
   text-align: center;
   padding: 20px;

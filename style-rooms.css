@@ -1,10 +1,7 @@
-/* ================================= */
-/* M&I HOTEL - ROOMS PAGE STYLES     */
-/* Author: Indiphile Mngxuma         */
-/* Date: Sept 2025                   */
-/* Description: Styles for the rooms */
-/* page of M&I Hotel website.        */
-/* ================================= */
+/* M&I HOTEL - ROOMS PAGE STYLES*/
+/* Author: Indiphile Mngxuma*/
+/* Date: Sept 2025*/
+/* Description: Styles for the rooms page of M&I Hotel website.*/
 
 /* Reset + general body styles */
 body {
@@ -13,9 +10,7 @@ body {
   background: #f0f4f8;
 }
 
-/* ============================= */
-/* Navbar Styles                 */
-/* ============================= */
+/* Navbar Styles*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -46,9 +41,7 @@ body {
   color: gold;
 }
 
-/* ============================= */
-/* Rooms Section Styles          */
-/* ============================= */
+/* Rooms Section Styles*/
 .rooms {
   padding: 50px 20px;
   text-align: center;
@@ -106,9 +99,7 @@ body {
   background: #555;
 }
 
-/* ============================= */
-/* Footer Styles                 */
-/* ============================= */
+/* Footer Styles*/
 footer {
   text-align: center;
   padding: 20px;

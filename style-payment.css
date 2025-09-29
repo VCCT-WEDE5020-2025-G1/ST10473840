@@ -1,20 +1,14 @@
-/* ================================= */
-/* M&I HOTEL - PAYMENT PAGE STYLES   */
-/* Author: Indiphile Mngxuma         */
-/* Date: Sept 2025                   */
-/* Description: Styles for secure    */
-/* payment page and booking form.    */
-/* ================================= */
-
+/* M&I HOTEL - PAYMENT PAGE STYLES*/
+/* Author: Indiphile Mngxuma*/
+/* Date: Sept 2025*/
+/* Description: Styles for secure payment page and booking form.*/
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f9fafc;
 }
 
-/* ============================= */
-/* Navbar Styles                 */
-/* ============================= */
+/* Navbar Styles*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,9 +39,7 @@ body {
   color: gold;
 }
 
-/* ============================= */
-/* Payment Section Styles        */
-/* ============================= */
+/* Payment Section Styles*/
 .payment {
   padding: 50px 20px;
   text-align: center;
@@ -101,7 +93,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Row for expiry + CVV */
+/* Row for expiry and CVV */
 .payment-row {
   display: flex;
   gap: 20px;
@@ -127,9 +119,7 @@ body {
   background: #f1c40f;
 }
 
-/* ============================= */
-/* Footer Styles                 */
-/* ============================= */
+/* Footer Styles*/
 footer {
   text-align: center;
   padding: 20px;

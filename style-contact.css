@@ -1,10 +1,8 @@
-/* ================================= */
-/* M&I HOTEL - CONTACT PAGE STYLES   */
-/* Author: Indiphile Mngxuma         */
-/* Date: Sept 2025                   */
-/* Description: Styles for contact   */
-/* page with form and info.          */
-/* ================================= */
+/* M&I HOTEL - CONTACT PAGE STYLES*/
+/* Author: Indiphile Mngxuma*/
+/* Date: Sept 2025*/
+/* Description: Styles for contact*/
+/* page with form and info.*/
 
 body {
   margin: 0;
@@ -12,9 +10,7 @@ body {
   background: #f9fafc;
 }
 
-/* ============================= */
-/* Navbar Styles                 */
-/* ============================= */
+/* Navbar Styles*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,9 +41,7 @@ body {
   color: gold;
 }
 
-/* ============================= */
-/* Contact Section Styles        */
-/* ============================= */
+/* Contact Section Styles*/
 .contact {
   padding: 50px 20px;
   text-align: center;
@@ -136,9 +130,7 @@ body {
   color: #555;
 }
 
-/* ============================= */
-/* Footer Styles                 */
-/* ============================= */
+/* Footer Styles*/
 footer {
   text-align: center;
   padding: 20px;

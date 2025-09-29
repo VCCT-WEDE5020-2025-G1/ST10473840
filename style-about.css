@@ -1,21 +1,17 @@
-/* ================================= */
-/* M&I HOTEL - ABOUT PAGE STYLES     */
-/* Author: Indiphile Mngxuma         */
-/* Date: Sept 2025                   */
+/* M&I HOTEL - ABOUT PAGE STYLES*/
+/* Author: Indiphile Mngxuma*/
+/* Date: Sept 2025*/
 /* Description: Styles for the about */
-/* page of the hotel website.        */
-/* ================================= */
+/* page of the hotel website.*/
 
-/* Reset + general body styles */
+/* Reset and general body styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f9fafc;
 }
 
-/* ============================= */
-/* Navbar Styles                 */
-/* ============================= */
+/* Navbar Styles*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -46,9 +42,7 @@ body {
   color: gold;
 }
 
-/* ============================= */
-/* About Section Styles          */
-/* ============================= */
+/* About Section Styles*/
 .about {
   padding: 50px 20px;
   text-align: center;
@@ -99,9 +93,7 @@ body {
   padding-left: 20px;
 }
 
-/* ============================= */
-/* Footer Styles                 */
-/* ============================= */
+/* Footer Styles*/
 footer {
   text-align: center;
   padding: 20px;

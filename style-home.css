@@ -1,21 +1,16 @@
-/* ================================= */
-/* M&I HOTEL - HOME PAGE STYLES      */
-/* Author: Indiphile Mngxuma         */
-/* Date: Sept 2025                   */
-/* Description: Styles for the home  */
-/* page of M&I Hotel website.        */
-/* ================================= */
+/* M&I HOTEL - HOME PAGE STYLES*/
+/* Author: Indiphile Mngxuma*/
+/* Date: Sept 2025*/
+/* Description: Styles for the home page of M&I Hotel website.*/
 
-/* Reset + general body styles */
+/* Reset and general body styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f8f9fa;
 }
 
-/* ============================= */
-/* Navbar Styles                 */
-/* ============================= */
+/* Navbar Styles*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,9 +42,7 @@ body {
   color: gold;
 }
 
-/* ============================= */
-/* Hero Section Styles           */
-/* ============================= */
+/* Hero Section Styles*/
 .hero {
   text-align: center;
   padding: 80px 20px;
