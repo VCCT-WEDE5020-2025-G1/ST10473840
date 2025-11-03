@@ -1,43 +1,45 @@
-# Changelog – M&I Hotel Website  
+# M&I Hotel Website – Changelog
 
-All notable changes to this project will be documented here.  
+## Version 1.0 – Initial Upload (October 2025)
+**Overview:**
+The foundation of the M&I Hotel website was created to showcase the hotel’s features, services, and contact information.
 
----
+**Additions:**
+- Created project folder structure (HTML, CSS, JS files)
+- Developed main page (`index.html`) with navigation bar and welcome section
+- Added consistent footer to all pages
+- Basic styling using CSS (fonts, colors, and layout)
 
-## [v1.0.0] – 2025-09-23  
-### Added  
-- **Project Initialization**  
-  - Created project folder structure
-  - Added `index.html` (Home Page).  
-  - Added `style.css` for homepage styling.  
+##  Version 1.1 – Website Enhancements (November 2025)
+**Overview:**
+Introduced interactive and dynamic elements to improve user engagement and experience.
 
-- **Core Pages**  
-  - `rooms.html` – Rooms listing.  
-  - `amenities.html` – Amenities and services.  
-  - `about.html` – Hotel background & story.  
-  - `contact.html` – Contact form.  
-  - `payment.html` – Payment demo form.  
+**Additions:**
+- Added **Contact Form** with HTML5 and JavaScript validation
+- Implemented **Interactive Google Map** (The IIE Varsity College Newlands location)  
+- Created **Gallery Page** with Lightbox functionality
+- Added **Smooth Fade-in Animations** for gallery images
+- Improved **Navigation Bar** across all pages for consistency
 
-- **Styling**  
-  - Individual CSS files for each page (`rooms.css`, `amenities.css`, `about.css`, `contact.css`, `payment.css`).  
-  - Shared **navbar design** across all pages.  
-  - Background and typography improvements.  
+**Fixes:**
+- Adjusted CSS styling for better responsiveness
+- Optimized image sizes for faster loading
 
-- **Content & Media**  
-  - Added hero section with tagline.  
-  - Inserted placeholder text for rooms, amenities, and about sections.   
+## Version 1.2 – Documentation and Repository Updates
+**Overview:**
+Final documentation and GitHub setup completed for submission.
 
-- **Navigation**  
-  - Functional navigation bar linking all 6 pages.  
+**Additions:**
+- Added detailed `README.md` with overview, features, and instructions
+- Created `CHANGELOG.md` to record development progress
+- Included **references and attributions** for resources used
+- Uploaded project to GitHub with multiple descriptive commits
 
-- **Documentation**  
-  - `README.md` created with project overview, folder structure, and setup instructions.  
-  - `CHANGELOG.md` created to track development progress.  
+## 🔮 Upcoming Features (Planned)
+- Online **booking and payment system**
+- Customer **feedback and review section**
+- **Search functionality** for rooms and services
 
----
-
-## Planned
-- Add **responsive design** (mobile-friendly layout).  
-- Improve **content depth** (realistic room descriptions, amenities list).  
-- Add **comments in HTML & CSS code** for better documentation.  
-- Improve **sitemap** with more details.  
+**👩🏽‍💻 Author:** Indiphile Mngxuma
+**🎓 Student Number:** ST10473840
+**📘 Module:** Web Development
