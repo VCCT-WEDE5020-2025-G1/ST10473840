@@ -3,93 +3,70 @@
 <!-- Date: Sept 2025-->
 <!-- Description: This page lists-->
 <!-- the different rooms available at M&I Hotel.-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M&I Hotel - Rooms</title>
-  <link rel="stylesheet" href="style-rooms.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms | M&I Hotel</title>
+    <link rel="stylesheet" href="style-rooms.css">
 </head>
 <body>
-
-  <!-- Navbar Section-->
-  <!-- Same across all pages-->
-  <header class="navbar">
-    <div class="logo"><h1>M&I HOTEL</h1></div>
-    <nav class="menu">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="rooms.html">ROOMS</a></li>
-        <li><a href="amenities.html">AMENITIES</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li><a href="payment.html">PAYMENT</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Rooms Section-->
-  <!-- Displays hotel room options-->
-  <main class="rooms">
-    <h2>Our Rooms</h2>
-    <p>Choose from our selection of luxurious and comfortable rooms, designed to suit every need.</p>
-
-    <div class="room-list">
-      <!-- Single Room -->
-      <div class="room-card">
-        <h3>Single Room</h3>
-        <p>Perfect for solo travelers. Cozy, modern, and budget-friendly.</p>
-        <p><strong>Price:</strong> R500 / night</p>
-        <button><a href="payment.html">Book Now</a></button>
-      </div>
-
-      <!-- Double Room -->
-      <div class="room-card">
-        <h3>Double Room</h3>
-        <p>Spacious and comfortable for two guests, with modern amenities.</p>
-        <p><strong>Price:</strong> R1500 / night</p>
-        <button><a href="payment.html">Book Now</a></button>
-      </div>
-
-      <!-- Luxury Suite -->
-      <div class="room-card">
-        <h3>Luxury Suite</h3>
-        <p>Experience premium comfort with a king-sized bed, private balcony, and lounge area.</p>
-        <p><strong>Price:</strong> R2000 / night</p>
-        <button><a href="payment.html">Book Now</a></button>
-      </div>
+    <div class="navbar">
+        <div class="icon">
+            <h1 class="logo">M&I HOTEL</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="rooms.html" class="active">ROOMS</a></li>
+                <li><a href="amenities.html">AMENITIES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
     </div>
-  </main>
 
-  <!-- Footer Section-->
-  <footer>
-    <p>&copy; 2025 Indiphile Mngxuma / All Rights Reserved</p>
-  </footer>
+    <section class="gallery-section">
+    <h2>Our Rooms</h2>
+    <p>Explore our luxurious and comfortable rooms designed for your perfect stay.</p>
 
-  <div class="accordion">
-  <button class="accordion-btn">Deluxe Room Details</button>
-  <div class="accordion-content">
-    <p>Spacious room with king-size bed, balcony view, and complimentary breakfast.</p>
-  </div>
-</div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search rooms...">
+    </div>
 
-<script>
-const accordions = document.querySelectorAll(".accordion-btn");
-accordions.forEach(button => {
-  button.addEventListener("click", () => {
-    button.classList.toggle("active");
-    const content = button.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-});
-</script>
+    <div class="gallery">
+        <div class="gallery-item" data-type="luxury">
+            <img src="Images/luxury.jpg" alt="Luxury Suite">
+            <p>Luxury Suite</p>
+        </div>
+        <div class="gallery-item" data-type="deluxe">
+            <img src="Images/Deluxe.jpg" alt="Deluxe Room">
+            <p>Deluxe Room</p>
+        </div>
+        <div class="gallery-item" data-type="standard">
+            <img src="Images/standard.jpg" alt="Standard Room">
+            <p>Standard Room</p>
+        </div>
+        <div class="gallery-item" data-type="family">
+            <img src="Images/family.avif" alt="Family Room">
+            <p>Family Room</p>
+        </div>
+    </div>
+</section>
 
 
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy;2025 Indiphile / All Rights Reserved</p>
+    </footer>
+
+    <script src="js/rooms.js"></script>
 </body>
 </html>
