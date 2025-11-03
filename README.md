@@ -42,8 +42,8 @@ This is a hotel website project designed for Web Development coursework. The sit
 * Payment form is demo only (not connected to real transactions).
 
 * Code is structured for clarity and learning purposes.
-
 * Folder structure follows standard web dev best practices.
+* https://github.com/VCCT-WEDE5020-2025-G1/ST10473840
 
 ## References
 
