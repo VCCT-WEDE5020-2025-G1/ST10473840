@@ -84,3 +84,30 @@ body {
     font-size: 40px;
     cursor: pointer;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.gallery-container img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.gallery-container img:nth-child(1) { animation-delay: 0.1s; }
+.gallery-container img:nth-child(2) { animation-delay: 0.2s; }
+.gallery-container img:nth-child(3) { animation-delay: 0.3s; }
+.gallery-container img:nth-child(4) { animation-delay: 0.4s; }
+.gallery-container img:nth-child(5) { animation-delay: 0.5s; }
+.gallery-container img:nth-child(6) { animation-delay: 0.6s; }
