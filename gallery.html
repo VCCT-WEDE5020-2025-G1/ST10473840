@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - M&I Hotel</title>
+    <link rel="stylesheet" href="style-gallery.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="logo">M&I HOTEL</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="rooms.html">ROOMS</a></li>
+            <li><a href="amenities.html">AMENITIES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <section class="gallery">
+        <h2>Hotel Gallery</h2>
+        <div class="gallery-container">
+            <img src="img1.jpg" alt="Luxury Room">
+            <img src="img2.jpg" alt="Spa Area">
+            <img src="img3.jpg" alt="Dining Area">
+            <img src="img4.jpg" alt="Swimming Pool">
+            <img src="img5.jpg" alt="Lobby">
+            <img src="img6.jpg" alt="Outdoor View">
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
