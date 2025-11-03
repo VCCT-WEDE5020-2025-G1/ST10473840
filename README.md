@@ -35,6 +35,8 @@ This is a hotel website project designed for Web Development coursework. The sit
 
 * GitHub – version control
 
+* JavaScript
+
 ## Notes
 
 * Payment form is demo only (not connected to real transactions).
@@ -43,3 +45,12 @@ This is a hotel website project designed for Web Development coursework. The sit
 
 * Folder structure follows standard web dev best practices.
 
+## References
+
+* W3Schools: https://www.w3schools.com/
+
+* MDN Web Docs: https://developer.mozilla.org/
+
+* CSS Tricks: https://css-tricks.com/
+
+* Freepik: Images and icons used for UI design
