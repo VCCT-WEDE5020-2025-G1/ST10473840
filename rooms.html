@@ -68,5 +68,28 @@
     <p>&copy; 2025 Indiphile Mngxuma / All Rights Reserved</p>
   </footer>
 
+  <div class="accordion">
+  <button class="accordion-btn">Deluxe Room Details</button>
+  <div class="accordion-content">
+    <p>Spacious room with king-size bed, balcony view, and complimentary breakfast.</p>
+  </div>
+</div>
+
+<script>
+const accordions = document.querySelectorAll(".accordion-btn");
+accordions.forEach(button => {
+  button.addEventListener("click", () => {
+    button.classList.toggle("active");
+    const content = button.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+});
+</script>
+
+
 </body>
 </html>
